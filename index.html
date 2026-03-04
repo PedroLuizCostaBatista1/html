@@ -4,28 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marmelo.web</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Marmelo.web</h1>
+        <h1>🔥 Marmelo.web</h1>
         <p>Marmelo aumentando a nossa nota</p> <br>
         <nav>
-            <a href="#">Inicío</a>
-            <a href="#">Serviços</a>
-            <a href="#">Contato</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#preco">Preços</a>
+            <a href="#contato">Contato</a>
+            <a href="#empresa">Empresa</a>
         </nav>
     </header>
     <main>
         <section id="sobre">
             <h2>Sobre a empresa</h2>
-            <p>Um site sobre curiosidades de Free Fire e White Box.</p>
-            <p>Venha aprender a dar 'capa' e 'gelo' conosco.</p>
+            <p>Um site sobre curiosidades de <strong>Free Fire</strong> e <strong>White Box</strong>.</p>
+            <p>Venha aprender a dar <strong>'capa'</strong> e <strong>'gelo'</strong> conosco.</p>
             <article>
-                <p>Vamos ensinar as pessoas a dar 'capa' e 'gelo' de qualidade no free fire.</p>
+                <p>"Vamos ensinar as pessoas a dar 'capa' e 'gelo' de qualidade no free fire."</p>
             </article>
             <img src="imagens/cesar.png" width="300px" alt="Cesar">
         </section>
-        <section>
+        <section id="servicos" class="servicos">
             <h2>Lista de Serviços</h2>
             <ul>
                 <li>Dar capa</li>
@@ -34,9 +37,9 @@
                 <li>Pintura</li>
             </ul>
         </section>
-        <section>
+        <section id="preco" class="precos">
             <h2>Tabela de preços</h2>
-            <table border="1">
+            <table border="2">
                 <thead>
                     <tr>
                         <th colspan="3">Produtos Marmelo</th>
@@ -61,11 +64,11 @@
                 </tbody>
             </table>
         </section>
-        <section>
+        <section id="video" class="video">
             <h2>Video do momento mais insano da vida de 'Marmelo.web'.</h2>
-            <iframe src="https://youtu.be/UnktCDi-BVs?si=C-NH7oSCIVcoTrwx" frameborder="5"></iframe>
+            <iframe src="https://youtu.be/Inbg9Pcu7u8?si=RpghPnmmSeo5L_lA" frameborder="5"></iframe>
         </section>
-        <section>
+        <section id="contato" class="contato">
             <h2>Contato de Marmelo</h2>
             <form action="">
                 <label for="name">Nome:</label>
@@ -84,16 +87,16 @@
                 <br>
                 <textarea type="text" id="text" name="text"></textarea>
                 <br>
-                <input type="submit" value="Envio">
+                <input class="cor_preta" type="submit" value="Envio">
             </form>
         </section>
-        <section>
-            <h4>Mais de Marmelo:</h4>
+        <section id="empresa" class="empresa">
+            <h4 class="cor_preta">Mais de Marmelo:</h4>
             <a href="#sobre">sobre a empresa</a> <br>
             <a href="https://kasaneteto.jp/utau/">https://kasaneteto.jp/utau/</a>
         </section>
     </main>
-    <footer>
+    <footer class="contato">
         <h2>Dados de contatos</h2>
         <p>Telefone: 4002-8922</p>
         <p>Endereço: Peatonal Primera Cda. Cuicacalli 10, Estrella del Sur, Iztapalapa, 09820 Ciudad de México, CDMX, México</p>
