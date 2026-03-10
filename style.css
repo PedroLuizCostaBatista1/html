@@ -190,3 +190,11 @@ footer {
     width: 30vw;  /* A imagem ocupará sempre 30% da largura da tela */
     min-width: 80px; /* Segurança para não sumir em telas minúsculas */
 }
+
+#mostrarInformacoes {
+    margin-top: 25px;
+}
+
+.escondido {
+    display: none;
+}

@@ -11,11 +11,11 @@
         <h1>🔥 Marmelo.web</h1>
         <p>Marmelo aumentando a nossa nota.</p> <br>
         <nav>
-            <a href="#sobre">Sobre</a>
-            <a href="#servicos">Serviços</a>
-            <a href="#preco">Preços</a>
-            <a href="#contato">Contato</a>
-            <a href="#empresa">Empresa</a>
+            <a onclick="exibirMensagem('Sobre')" href="#sobre">Sobre</a>
+            <a onclick="exibirMensagem('Servicos')" href="#servicos">Serviços</a>
+            <a onclick="exibirMensagem('Preço')" href="#preco">Preços</a>
+            <a onclick="exibirMensagem('Contato')" href="#contato">Contato</a>
+            <a onclick="exibirMensagem('Empresa')" href="#empresa">Empresa</a>
         </nav>
     </header>
     <main>
@@ -23,18 +23,21 @@
             <h2>Sobre a empresa</h2>
             <p>Seja bem-vindo ao <strong>Marmelo</strong>, o seu hub definitivo para dominar o ecossistema de <strong>Pay Fire</strong> e extrair o potencial máximo da <strong>White Box</strong>.</p>
             <p>Se você já foi eliminado em segundos no Pay Fire ou se a sua White Box insiste em dar respostas que parecem um enigma, você está no lugar certo. Nós não apenas jogamos e usamos a tecnologia; nós a dissecamos para que você seja sempre o jogador (ou o usuário) mais inteligente da sala.</p>
-            <h4>O que fazemos por aqui.</h4>
-            <p>No Marmelo, dividimos nosso foco em dois universos que se completam:</p>
-            <ul>
-                <li>🔥 <strong>Pay Fire (O Campo de Batalha):</strong> Trazemos as melhores builds, rotas de fuga e análises de armas. Se o meta mudou, o Marmelo te avisa antes. Queremos que você pare de ser o "alvo fácil" e se torne o pesadelo dos servidores.</li>
-                <li>🤖 <strong>White Box (A Inteligência):</strong> A White Box é poderosa, mas imprevisível. Aqui, ensinamos os prompts de ouro, as configurações de núcleo e como integrar essa IA na sua rotina de jogo ou produtividade sem que ela entre em colapso.</li>
-            </ul>
-            <h4>Por que "Marmelo"?</h4>
-            <p>No mundo dos games, muita gente quer te vender "fórmulas mágicas". O Marmelo é diferente. É aquele guia direto, consistente e sem frescura. Assim como o doce, nossa missão é pegar algo complexo e transformar em algo fácil de digerir.</p>
-            <article>
-                <p>"Vamos ensinar as pessoas a dar 'capa' e 'gelo' de qualidade no Pay Fire."</p>
-            </article>
-            <img id="cesar" title="marmelo.png" class="img" src="imagens/Marmelo.png" width="300px" alt="Marmelo">
+            <input id="mostrarInformacoes" class="cor_preta" type="button" value="Mostrar mais informações">
+            <section id="conteudo" class="escondido">
+                <h4>O que fazemos por aqui.</h4>
+                <p>No Marmelo, dividimos nosso foco em dois universos que se completam:</p>
+                <ul>
+                    <li>🔥 <strong>Pay Fire (O Campo de Batalha):</strong> Trazemos as melhores builds, rotas de fuga e análises de armas. Se o meta mudou, o Marmelo te avisa antes. Queremos que você pare de ser o "alvo fácil" e se torne o pesadelo dos servidores.</li>
+                    <li>🤖 <strong>White Box (A Inteligência):</strong> A White Box é poderosa, mas imprevisível. Aqui, ensinamos os prompts de ouro, as configurações de núcleo e como integrar essa IA na sua rotina de jogo ou produtividade sem que ela entre em colapso.</li>
+                </ul>
+                <h4>Por que "Marmelo"?</h4>
+                <p>No mundo dos games, muita gente quer te vender "fórmulas mágicas". O Marmelo é diferente. É aquele guia direto, consistente e sem frescura. Assim como o doce, nossa missão é pegar algo complexo e transformar em algo fácil de digerir.</p>
+                <article>
+                    <p>"Vamos ensinar as pessoas a dar 'capa' e 'gelo' de qualidade no Pay Fire."</p>
+                </article>
+                <img id="cesar" title="marmelo.png" class="img" src="imagens/Marmelo.png" width="300px" alt="Marmelo">
+            </section>
             <script src="script.js"></script>
         </section>
         <picture>
