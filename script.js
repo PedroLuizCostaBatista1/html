@@ -1,5 +1,26 @@
+function mensagemBoasVindas() {
+    alert("Bem-vindo ao Marmelo-web");
+}
+
 function exibirMensagem(mensagem) {
     alert("Você acessou a seção " + mensagem + ".");
+}
+
+function mudarTexto() {
+    const botaoEnvio = document.getElementById("botaoEnvio");
+    botaoEnvio.value = "Enviada!";
+
+    setTimeout(() => {
+        botaoEnvio.value = "Envio";
+    }, 2000);
+}
+
+function mudarCor() {
+    const link1 = document.getElementById("link1");
+    const link2 = document.getElementById("link2");
+
+    link1.style.color = "white";
+    link2.style.color = "white";
 }
 
 const botao = document.getElementById("mostrarInformacoes");

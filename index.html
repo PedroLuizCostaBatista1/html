@@ -19,6 +19,7 @@
         </nav>
     </header>
     <main>
+        <input onclick="mensagemBoasVindas()" class="cor_preta" type="button" value="Clique para receber uma mensagem">
         <section id="sobre">
             <h2>Sobre a empresa</h2>
             <p>Seja bem-vindo ao <strong>Marmelo</strong>, o seu hub definitivo para dominar o ecossistema de <strong>Pay Fire</strong> e extrair o potencial máximo da <strong>White Box</strong>.</p>
@@ -140,13 +141,13 @@
                 <br>
                 <textarea type="text" id="text" name="text"></textarea>
                 <br>
-                <input class="cor_preta" type="submit" value="Envio">
+                <input id="botaoEnvio" onclick="mudarTexto()" class="cor_preta" type="button" value="Envio">
             </form>
         </section>
         <section id="empresa" class="empresa">
-            <h4 class="cor_preta">Mais de Marmelo:</h4>
-            <a href="#sobre">sobre a empresa</a> <br>
-            <a href="https://kasaneteto.jp/utau/">https://kasaneteto.jp/utau/</a>
+            <h4 onclick="mudarCor()" class="cor_preta">Mais de Marmelo:</h4>
+            <a id="link1" href="#sobre">sobre a empresa</a> <br>
+            <a id="link2" href="https://kasaneteto.jp/utau/">https://kasaneteto.jp/utau/</a>
         </section>
     </main>
     <footer class="contato">
