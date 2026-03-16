@@ -21,6 +21,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     color: var(--text-light);
+    cursor: url('imagens/cursor_engraçado.png'), auto;
 }
 
 /* Cabeçalho e Navegação */
@@ -137,6 +138,7 @@ form {
     flex-direction: column;
 }
 
+/* Área de texto */
 input, textarea {
     padding: 12px;
     margin-bottom: 15px;
@@ -144,11 +146,29 @@ input, textarea {
     border: 1px solid #444;
     color: white;
     border-radius: 5px;
+    font-size: 14px;
+    resize: vertical;
 }
 
 input:focus, textarea:focus {
     outline: none;
     border-color: var(--secondary-color);
+}
+
+/* Input de arquivo */
+input[type="file"] {
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.checkbox-group {
+    display: block;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.checkbox-group input[type="checkbox"] {
+    margin-right: 8px;
 }
 
 .cor_preta {
@@ -200,6 +220,24 @@ footer {
 }
 
 fieldset {
-    border: 0px;
-    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/* Labels principais */
+fieldset > label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+/* Botões */
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
 }
