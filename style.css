@@ -61,7 +61,7 @@ main {
     padding: 0 20px;
 }
 
-section {
+section, .cadastro {
     position: relative;
     z-index: 2;
     margin-bottom: 4rem;
@@ -197,4 +197,9 @@ footer {
 
 .escondido {
     display: none;
+}
+
+fieldset {
+    border: 0px;
+    padding: 10px;
 }

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <header>
+        <h1>🔥 Cadastro</h1>
+        <p>Bottom text</p> <br>
+        <nav>
+            <a href="index.html">Voltar</a>
+        </nav>
+    </header>
+    <main>
+        <form action="#" method="post" class="cadastro">
+            <fieldset>
+                <label for="nome">Nome Completo:</label>
+                <input type="text" name="nome" required>
+            </fieldset>
+            <fieldset>
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" placeholder="exemplo@gmail.com" required>
+            </fieldset>
+            <fieldset>
+                <label for="telefone">Telefone:</label>
+                <input type="tel" name="telefone" placeholder="(00) 00000-0000">
+            </fieldset>
+            <fieldset>
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha" required>
+            </fieldset>
+            <fieldset>
+                <label for="nascimento">Data de Nascimento:</label>
+                <input type="date" name="nascimento">
+            </fieldset>
+            <fieldset>
+                <label for="localizacao">Cidade ou Estado:</label>
+                <select name="localizacao" id="localizacao">
+                    <option value="">Selecione uma opção</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PR">Paraná</option>
+                    <option value="BA">Bahia</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <label>Gênero:</label>
+                <label class="radio-group"><input type="radio" name="genero" value="masculino"> Masculino</label>
+                <label class="radio-group"><input type="radio" name="genero" value="feminino"> Feminino</label>
+                <label class="radio-group"><input type="radio" name="genero" value="nao-informar"> Prefiro não informar</label>
+            </fieldset>
+        </form>
+    </main>
+    <footer class="contato">
+        <h2>Dados de contatos</h2>
+        <p>Telefone: 4002-8922</p>
+        <p>Endereço: Peatonal Primera Cda. Cuicacalli 10, Estrella del Sur, Iztapalapa, 09820 Ciudad de México, CDMX, México</p>
+        <p>&copy; direito autorais mamelo</p>
+    </footer>
+</body>
+</html>
