@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" ="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Cadastro</title>content
+    <title>Cadastro</title>
 </head>
 <body>
     <header>
@@ -16,6 +16,8 @@
     </header>
     <main>
         <form action="#" method="post" class="cadastro">
+            <input type="hidden" id="ip_usuario" name="ip_usuario">
+            <input type="hidden" id="provedor_usuario" name="provedor_usuario">
             <fieldset>
                 <label for="nome">Nome Completo:</label>
                 <input type="text" name="nome" required>
@@ -43,6 +45,13 @@
                 <input type="text" id="bairro" placeholder="Bairro">
                 <input type="text" id="cidade" placeholder="Cidade">
                 <input type="text" id="estado" placeholder="Estado">
+                <input type="text" id="pais" placeholder="País">
+                <label for="cnpj">CNPJ:</label>
+                <input type="text" id="cnpj" name="cnpj" placeholder="CNPJ">
+                <input type="text" name="nome" placeholder="Razão Social">
+                <input type="text" id="nome_fantasia" name="nome_fantasia" readonly placeholder="Nome fantasia">
+                <input type="text" id="situacao" name="situacao" readonly placeholder="Situação Cadastral">
+                <input type="text" id="estado_empresa" placeholder="Estado">
             </fieldset>
             <fieldset>
                 <label>Gênero:</label>
